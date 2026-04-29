@@ -1,115 +1,378 @@
-version: '3'
+# ===================================================================
+# Thinx - Docker Compose Configuration
+# Human Trafficking Research Platform
+# ===================================================================
+#
+# This file defines all the services (components) that make up Thinx.
+# Think of it as a recipe that tells Docker how to set up everything.
+#
+# QUICK START FOR NON-TECHNICAL USERS:
+#   1. Open terminal/command prompt
+#   2. Navigate to this folder
+#   3. Run: docker-compose --profile full up --build
+#   4. Wait for services to start (2-5 minutes)
+#   5. Open browser to: http://localhost
+#
+# For detailed instructions, see: QUICK_START.md
+#
+# ===================================================================
+
 services:
-
-  dsw_server:
-    image: datastewardshipwizard/wizard-server:2.5.0
-    restart: always
-    hostname: dsw_server
-    depends_on:
-      - rabbitmq
-      - mongo
-    volumes:
-      - ./dsw-server/application.yml:/application/engine-wizard/config/application.yml:ro
-      - ./dsw-server/integration.yml:/application/engine-wizard/config/integration.yml:ro
-
-  dsw_client:
-    image: datastewardshipwizard/wizard-client:2.5.0
-    restart: always
-    hostname: dsw_client
-    environment:
-    # (!) Change API_URL
-    # API_URL: <dsw-url>
-      API_URL: https://api.dsw.vodan.fairdatapoint.org
-    volumes:
-      - ./dsw-client/variables.scss:/src/scss/customizations/_variables.scss:ro
-      - ./dsw-client/assets:/usr/share/nginx/html/assets:ro
-      - ./dsw-client/configuration/provisioning.json:/configuration/provisioning.json:ro
-      - ./dsw-client/favicon.ico:/usr/share/nginx/html/favicon.ico:ro
-
-  docworker:
-    image: datastewardshipwizard/document-worker:2.5.0
-    restart: always
-    depends_on:
-      - rabbitmq
-    volumes:
-      - ./docworker/config.yml:/app/config.yml:ro
-
-  mongo:
-    image: mongo:4.2.3
-    restart: always
+  # ===================================================================
+  # AllegroGraph - Research Database
+  # ===================================================================
+  # This is where your research data lives. It's a specialized database
+  # for storing connections between data (RDF format).
+  #
+  # When to use:
+  #   - Include with --profile full or --profile no-ai
+  #   - Skip with --profile minimal (if you have external database)
+  #
+  # Access: http://localhost:10035
+  # Default login: admin / admin123
+  #
+  # ⚠️ SECURITY: Change the default password in production!
+  # ===================================================================
+  allegrograph:
+    image: franzinc/agraph:v8.0.1  # Official AllegroGraph image
+    container_name: agraph_db        # Name to reference this container
+    platform: linux/amd64            # Required for M1/M2 Macs
     ports:
-      - 127.0.0.1:27017:27017
+      - "10035:10035"                # Web interface port
+                                     # Format: "your_computer:container"
+                                     # Change first number if port is in use
     environment:
-      MONGO_INITDB_DATABASE: wizard
+      # Database admin credentials - CHANGE THESE FOR PRODUCTION!
+      - AGRAPH_SUPER_USER=admin
+      - AGRAPH_SUPER_PASSWORD=admin123
     volumes:
-      - ./mongo/data:/data/db
-      - ./mongo/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      # Save database files so they survive container restarts
+      - agraph_data:/data
+    shm_size: 8gb                    # Shared memory for database performance (8GB for multiple repos)
+    networks:
+      - app_network                  # Connect to other containers
+    restart: unless-stopped          # Auto-restart if crash (not on manual stop)
+    healthcheck:
+      # Docker checks if service is healthy
+      test: ["CMD", "curl", "-f", "http://localhost:10035/"]
+      interval: 30s                  # Check every 30 seconds
+      timeout: 10s                   # Wait 10 seconds for response
+      retries: 3                     # Try 3 times before marking unhealthy
+      start_period: 40s              # Wait 40s after start before checking
+    profiles:
+      # This service runs when using these profiles:
+      - full         # Complete system
+      - allegrograph # Database only
+      - no-ai        # Everything except AI
 
-  rabbitmq:
-    image: rabbitmq:3.8.2-management
-    restart: always
+  # ===================================================================
+  # Ollama - AI Service (OPTIONAL)
+  # ===================================================================
+  # Provides the "AI Smart Mapper" feature that automatically organizes
+  # your data columns. Completely optional - you can use Thinx without it.
+  #
+  # What it does:
+  #   - Runs AI models locally (your data never leaves your computer)
+  #   - Suggests how to map your column names to standard format
+  #   - Example: "age" → "Victim.age", "country" → "Victim.nationality"
+  #
+  # Requirements:
+  #   - 2-5 GB disk space for AI models
+  #   - 4GB RAM minimum
+  #   - Adds ~2 minutes to startup time
+  #
+  # When to include:
+  #   - Use --profile full (includes AI)
+  #   - Skip with --profile no-ai (faster, no AI features)
+  #
+  # Access: http://localhost:11434 (API only, no web interface)
+  #
+  # Privacy: 100% local processing - GDPR compliant
+  # ===================================================================
+  ollama:
+    image: ollama/ollama:latest      # Official Ollama image
+    container_name: ollama_service   # Name to reference this container
+    ports:
+      - "11434:11434"                # API port for AI communication
+    volumes:
+      # Store downloaded AI models (persist across restarts)
+      - ollama_data:/root/.ollama
+    networks:
+      - app_network                  # Connect to backend
+    restart: unless-stopped          # Auto-restart if crash
+    profiles:
+      # Only runs with these profiles:
+      - full  # Complete system with AI
+      - ai    # AI only
+
+  # ===================================================================
+  # Backend - API Server (REQUIRED)
+  # ===================================================================
+  # This is the "brain" of Thinx. It handles:
+  #   - Connecting to databases
+  #   - Processing data requests
+  #   - Running AI mappings
+  #   - Managing user connections
+  #
+  # Technology: Python + Flask
+  # Access: http://localhost:5000 (API only, not meant for humans)
+  #
+  # The frontend (web interface) talks to this backend to get data.
+  # You typically don't access this directly unless you're a developer.
+  #
+  # Always included in all profiles.
+  # ===================================================================
+  backend:
+    build:
+      context: ./backend             # Build from ./backend folder
+      dockerfile: Dockerfile         # Using Dockerfile in that folder
+    container_name: flask_api        # Name to reference this container
+    ports:
+      - "5000:5000"                  # API port
+                                     # Change first 5000 if port is in use
     environment:
-      RABBITMQ_DEFAULT_USER: guest
-      RABBITMQ_DEFAULT_PASS: guest
-
-  fdp:
-    image: fairdata/fairdatapoint:1.6.0
-    restart: always
-    hostname: fdp
+      # Flask configuration
+      - FLASK_APP=app.py             # Main application file
+      - FLASK_ENV=development        # Development mode (shows errors)
+      - FLASK_DEBUG=1                # Enable debugging
+      - PYTHONUNBUFFERED=1           # Show Python output immediately
+      
+      # AllegroGraph connection settings
+      # These tell the backend how to find the database
+      - AGRAPH_HOST=${AGRAPH_HOST:-allegrograph}  # Use 'allegrograph' for Docker, 'localhost' for external
+      - AGRAPH_PORT=${AGRAPH_PORT:-10035}
+      - AGRAPH_SUPER_USER=${AGRAPH_SUPER_USER:-admin}
+      - AGRAPH_SUPER_PASSWORD=${AGRAPH_SUPER_PASSWORD:-admin123}
+      
+      # 💡 To use external database:
+      #   Set these in .env file or command line:
+      #   AGRAPH_HOST=192.168.1.100 docker-compose up
     volumes:
-      - ./fdp/application.yml:/fdp/application.yml:ro
+      # Mount backend code for hot-reload (changes reflect immediately)
+      - ./backend:/app
+      # Mount root directory for access to notebooks and data files
+      - .:/workspace
+      # Save user connections persistently
+      - backend_data:/app/data
+    networks:
+      - app_network                  # Connect to database and AI
+    restart: unless-stopped          # Auto-restart if crash
+    healthcheck:
+      # Check if backend is responding
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s              # Wait 10s after start before checking
+    profiles:
+      # Runs with ALL profiles (always needed)
+      - full      # Complete system
+      - backend   # Backend only
+      - no-ai     # Without AI
+      - minimal   # Minimal setup
 
-  fdp_client:
-    image: fairdata/fairdatapoint-client:1.6.0
-    restart: always
-    hostname: fdp_client
+  # ===================================================================
+  # Frontend - Web Interface (REQUIRED)
+  # ===================================================================
+  # This is what you see and interact with in your web browser.
+  # The user-friendly interface for exploring data.
+  #
+  # Features:
+  #   - Add and manage database connections
+  #   - View data tables and statistics
+  #   - Upload and process files
+  #   - Use AI smart mapper
+  #   - Run data transformations
+  #
+  # Technology: Vue.js + Vite + Nginx
+  # Access: http://localhost (this is where you work!)
+  #
+  # This is the main interface - start here when using Thinx.
+  #
+  # Always included in all profiles.
+  # ===================================================================
+  frontend:
+    build:
+      context: ./frontend            # Build from ./frontend folder
+      dockerfile: Dockerfile         # Using Dockerfile in that folder
+      target: development            # Development build with hot-reload
+    container_name: vue_ui           # Name to reference this container
+    ports:
+      - "80:80"                      # Web interface port (standard HTTP)
+                                     # 💡 If port 80 is in use, change to "8080:80"
+                                     #    then access at http://localhost:8080
     environment:
-      - FDP_HOST=fdp
+      # Tell frontend where to find the backend API
+      - VITE_API_URL=${VITE_API_URL:-http://localhost:5000}
+      # Development mode
+      - NODE_ENV=development
     volumes:
-      - ./fdp-client/variables.scss:/src/scss/custom/_variables.scss:ro
-      - ./fdp-client/assets:/usr/share/nginx/html/assets:ro
-      - ./fdp-client/favicon.ico:/usr/share/nginx/html/favicon.ico:ro
+      # Mount frontend code for hot-reload (changes reflect immediately)
+      - ./frontend:/app
+      # Exclude node_modules (use container's version)
+      - /app/node_modules
+    networks:
+      - app_network                  # Connect to backend
+    depends_on:
+      # Wait for backend to be ready first
+      - backend
+    restart: unless-stopped          # Auto-restart if crash
+    stdin_open: true                 # Keep container interactive
+    tty: true                        # Allocate terminal
+    # Resource limits to prevent container hanging
+    deploy:
+      resources:
+        limits:
+          memory: 2G                 # Max 2GB RAM
+        reservations:
+          memory: 512M               # Reserve 512MB RAM
+    # Stop gracefully with timeout
+    stop_grace_period: 10s
+    profiles:
+      # Runs with ALL profiles (always needed)
+      - full      # Complete system
+      - frontend  # Frontend only
+      - no-ai     # Without AI
+      - minimal   # Minimal setup
 
-  blazegraph:
-    image: metaphacts/blazegraph-basic:2.2.0-20160908.003514-6
-    restart: always
-    volumes:
-      - ./blazegraph:/blazegraph-data
+# ===================================================================
+# Networks - How Containers Talk to Each Other
+# ===================================================================
+# This creates a private network so containers can communicate.
+# Think of it like a virtual LAN connecting all the services.
+#
+# Frontend talks to Backend, Backend talks to Database, etc.
+# ===================================================================
+networks:
+  app_network:
+    driver: bridge                   # Standard Docker network type
+    name: datascienceinpractice_network
+
+# ===================================================================
+# Volumes - Persistent Data Storage
+# ===================================================================
+# These are like external hard drives for your containers.
+# When you stop/restart containers, data in volumes is preserved.
+#
+# WITHOUT volumes: All data disappears when container stops
+# WITH volumes: Data survives restarts, updates, and crashes
+#
+# Your research data is valuable - these volumes keep it safe!
+# ===================================================================
+volumes:
+  # ---------------------------------------------------------------
+  # AllegroGraph Database Storage
+  # ---------------------------------------------------------------
+  # Stores all your research data (RDF triples)
+  # Size: Depends on your data (typically 100MB - 10GB)
+  # Critical: NEVER delete this if you have important data!
+  # ---------------------------------------------------------------
+  agraph_data:
+    driver: local                    # Stored on host computer
+    name: agraph_data_volume         # Volume name for reference
   
-  agraph:
-    image: franzinc/agraph:v7.0.1
-    restart: always
-    ports:
-      - 10000-10035:10000-10035
-      - 8443:8443
-    hostname: agraph
-    shm_size: '1gb'
-    volumes:
-      - ./allegrograph/data:/agraph/data/
-      - ./allegrograph/agraph.cfg:/agraph/etc/agraph.cfg
-      - ./allegrograph/cert.pem:/certs/cert.pem
+  # ---------------------------------------------------------------
+  # Backend Connection Configurations
+  # ---------------------------------------------------------------
+  # Stores your saved database connections
+  # Size: Small (~1MB)
+  # Contains: Server addresses, usernames, connection settings
+  # ---------------------------------------------------------------
+  backend_data:
+    driver: local
+    name: backend_data_volume
 
-  json_server:
-    image: clue/json-server
-    restart: always
-    hostname: json_server
-    volumes:
-      - ./json-server/db.json:/data/db.json:ro
+  # ---------------------------------------------------------------
+  # AI Model Storage (Optional)
+  # ---------------------------------------------------------------
+  # Stores downloaded AI models for smart mapping
+  # Size: 2-5GB per model
+  # Only used if you download AI models
+  # ---------------------------------------------------------------
+  ollama_data:
+    driver: local
+    name: ollama_data_volume
 
-  submission_service:
-    image: datastewardshipwizard/triple-store-submission-service:1.1.0
-    restart: always
-    hostname: submission_service
-    volumes:
-      - ./submission-service/config.yml:/app/config.yml:ro
-
-  proxy:
-    image: nginx:1.17
-    restart: always
-    ports:
-      - 80:80
-      - 443:443
-    volumes:
-      - ./proxy/nginx:/etc/nginx:ro
-      - ./proxy/letsencrypt:/var/www/letsencrypt:ro
-      - /etc/letsencrypt:/etc/letsencrypt:ro
+# ===================================================================
+# USAGE GUIDE - How to Start Thinx
+# ===================================================================
+#
+# 🌟 RECOMMENDED FOR MOST USERS:
+#   docker-compose --profile full up --build
+#   → Starts everything: Database, Backend, Frontend, AI
+#   → Takes 3-7 minutes first time (downloads images)
+#   → Subsequent starts: 30-60 seconds
+#
+# ⚡ FASTER STARTUP (No AI):
+#   docker-compose --profile no-ai up --build
+#   → Starts: Database, Backend, Frontend
+#   → No AI smart mapper features
+#   → Faster and uses less RAM
+#
+# 💻 MINIMAL (Use Your Own Database):
+#   docker-compose --profile minimal up --build
+#   → Starts: Backend, Frontend only
+#   → You must have AllegroGraph running elsewhere
+#   → Set AGRAPH_HOST environment variable
+#
+# 🔧 INDIVIDUAL SERVICES (Advanced):
+#   docker-compose up --build backend    # Backend only
+#   docker-compose up --build frontend   # Frontend only
+#   docker-compose up --build allegrograph  # Database only
+#
+# -------------------------------------------------------------------
+# COMMON COMMANDS:
+# -------------------------------------------------------------------
+#
+# Stop containers (keeps data):
+#   docker-compose stop
+#
+# Stop and remove containers (keeps data in volumes):
+#   docker-compose down
+#
+# Remove everything INCLUDING data (⚠️ DANGEROUS):
+#   docker-compose down -v
+#
+# View running containers:
+#   docker-compose ps
+#
+# View logs:
+#   docker-compose logs
+#   docker-compose logs backend    # Specific service
+#
+# Restart a service:
+#   docker-compose restart backend
+#
+# Rebuild after code changes:
+#   docker-compose up --build
+#
+# Update to latest images:
+#   docker-compose pull
+#   docker-compose up --build
+#
+# -------------------------------------------------------------------
+# TROUBLESHOOTING:
+# -------------------------------------------------------------------
+#
+# Port already in use:
+#   → Change port numbers above (e.g., "8080:80" instead of "80:80")
+#
+# "Cannot connect to Docker daemon":
+#   → Make sure Docker Desktop is running
+#
+# Out of disk space:
+#   → Run: docker system prune -a
+#   → This removes unused images and containers
+#
+# Container keeps restarting:
+#   → Check logs: docker-compose logs [service-name]
+#
+# Fresh start needed:
+#   → docker-compose down -v && docker-compose --profile full up --build
+#
+# -------------------------------------------------------------------
+# MORE HELP:
+#   - README.md - Complete user guide
+#   - QUICK_START.md - Detailed setup instructions
+#   - FAQ.md - Common questions and solutions
+# ===================================================================

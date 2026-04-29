@@ -1,0 +1,2715 @@
+@prefix hds: <http://example.org/hds#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/resource/Incident/T_100__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/100> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_100_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/100> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_100_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/100> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_100_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/100> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_100_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/100> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_100_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/100> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_10__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/10> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_10_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/10> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_10_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/10> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_10_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/10> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_10_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/10> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_10_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/10> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_11__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/11> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_11_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/11> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_11_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/11> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_11_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/11> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_11_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/11> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_11_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/11> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_12__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/12> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_12_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/12> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_12_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/12> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_12_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/12> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_12_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/12> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_12_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/12> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_13__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/13> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_13_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/13> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_13_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/13> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_13_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/13> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_13_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/13> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_13_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/13> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_14__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/14> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_14_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/14> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_14_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/14> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_14_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/14> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_14_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/14> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_14_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/14> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_15__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/15> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_15_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/15> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_15_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/15> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_15_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/15> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_15_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/15> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_15_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/15> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_16__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/16> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_16_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/16> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_16_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/16> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_16_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/16> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_16_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/16> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_16_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/16> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_17__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/17> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_17_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/17> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_17_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/17> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_17_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/17> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_17_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/17> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_17_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/17> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_18__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/18> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_18_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/18> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_18_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/18> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_18_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/18> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_18_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/18> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_18_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/18> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_19__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/19> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_19_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/19> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_19_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/19> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_19_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/19> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_19_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/19> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_19_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/19> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_1__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/1> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_1_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/1> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_1_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/1> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_1_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/1> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_1_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/1> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_1_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/1> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_20__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/20> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_20_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/20> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_20_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/20> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_20_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/20> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_20_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/20> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_20_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/20> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_21__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/21> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_21_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/21> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_21_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/21> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_21_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/21> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_21_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/21> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_21_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/21> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_22__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/22> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_22_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/22> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_22_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/22> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_22_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/22> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_22_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/22> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_22_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/22> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_23__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/23> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_23_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/23> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_23_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/23> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_23_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/23> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_23_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/23> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_23_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/23> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_24__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/24> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_24_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/24> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_24_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/24> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_24_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/24> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_24_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/24> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_24_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/24> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_25__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/25> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_25_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/25> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_25_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/25> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_25_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/25> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_25_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/25> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_25_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/25> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_26__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/26> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_26_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/26> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_26_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/26> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_26_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/26> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_26_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/26> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_26_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/26> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_27__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/27> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_27_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/27> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_27_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/27> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_27_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/27> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_27_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/27> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_27_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/27> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_28__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/28> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_28_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/28> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_28_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/28> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_28_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/28> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_28_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/28> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_28_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/28> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_29__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/29> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_29_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/29> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_29_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/29> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_29_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/29> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_29_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/29> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_29_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/29> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_2__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/2> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_2_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/2> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_2_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/2> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_2_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/2> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_2_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/2> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_2_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/2> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_30__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/30> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_30_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/30> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_30_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/30> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_30_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/30> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_30_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/30> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_30_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/30> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_31__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/31> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_31_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/31> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_31_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/31> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_31_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/31> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_31_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/31> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_31_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/31> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_32__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/32> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_32_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/32> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_32_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/32> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_32_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/32> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_32_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/32> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_32_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/32> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_33__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/33> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_33_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/33> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_33_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/33> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_33_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/33> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_33_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/33> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_33_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/33> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_34__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/34> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_34_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/34> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_34_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/34> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_34_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/34> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_34_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/34> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_34_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/34> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_35__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/35> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_35_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/35> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_35_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/35> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_35_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/35> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_35_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/35> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_35_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/35> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_36__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/36> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_36_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/36> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_36_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/36> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_36_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/36> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_36_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/36> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_36_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/36> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_37__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/37> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_37_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/37> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_37_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/37> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_37_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/37> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_37_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/37> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_37_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/37> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_38__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/38> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_38_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/38> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_38_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/38> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_38_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/38> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_38_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/38> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_38_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/38> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_39__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/39> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_39_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/39> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_39_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/39> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_39_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/39> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_39_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/39> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_39_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/39> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_3__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/3> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_3_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/3> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_3_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/3> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_3_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/3> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_3_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/3> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_3_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/3> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_40__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/40> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_40_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/40> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_40_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/40> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_40_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/40> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_40_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/40> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_40_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/40> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_41__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/41> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_41_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/41> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_41_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/41> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_41_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/41> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_41_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/41> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_41_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/41> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_42__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/42> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_42_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/42> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_42_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/42> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_42_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/42> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_42_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/42> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_42_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/42> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_43__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/43> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_43_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/43> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_43_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/43> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_43_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/43> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_43_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/43> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_43_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/43> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_44__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/44> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_44_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/44> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_44_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/44> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_44_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/44> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_44_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/44> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_44_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/44> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_45__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/45> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_45_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/45> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_45_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/45> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_45_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/45> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_45_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/45> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_45_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/45> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_46__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/46> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_46_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/46> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_46_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/46> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_46_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/46> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_46_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/46> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_46_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/46> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_47__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/47> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_47_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/47> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_47_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/47> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_47_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/47> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_47_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/47> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_47_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/47> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_48__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/48> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_48_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/48> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_48_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/48> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_48_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/48> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_48_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/48> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_48_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/48> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_49__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/49> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_49_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/49> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_49_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/49> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_49_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/49> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_49_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/49> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_49_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/49> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_4__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/4> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_4_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/4> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_4_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/4> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_4_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/4> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_4_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/4> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_4_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/4> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_50__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/50> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_50_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/50> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_50_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/50> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_50_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/50> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_50_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/50> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_50_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/50> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_51__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/51> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_51_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/51> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_51_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/51> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_51_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/51> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_51_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/51> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_51_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/51> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_52__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/52> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_52_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/52> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_52_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/52> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_52_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/52> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_52_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/52> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_52_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/52> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_53__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/53> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_53_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/53> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_53_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/53> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_53_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/53> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_53_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/53> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_53_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/53> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_54__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/54> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_54_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/54> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_54_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/54> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_54_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/54> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_54_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/54> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_54_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/54> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_55__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/55> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_55_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/55> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_55_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/55> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_55_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/55> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_55_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/55> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_55_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/55> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_56__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/56> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_56_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/56> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_56_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/56> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_56_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/56> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_56_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/56> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_56_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/56> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_57__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/57> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_57_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/57> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_57_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/57> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_57_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/57> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_57_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/57> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_57_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/57> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_58__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/58> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_58_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/58> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_58_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/58> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_58_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/58> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_58_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/58> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_58_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/58> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_59__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/59> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_59_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/59> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_59_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/59> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_59_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/59> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_59_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/59> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_59_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/59> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_5__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/5> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_5_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/5> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_5_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/5> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_5_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/5> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_5_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/5> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_5_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/5> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_60__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/60> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_60_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/60> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_60_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/60> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_60_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/60> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_60_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/60> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_60_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/60> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_61__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/61> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_61_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/61> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_61_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/61> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_61_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/61> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_61_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/61> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_61_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/61> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_62__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/62> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_62_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/62> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_62_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/62> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_62_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/62> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_62_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/62> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_62_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/62> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_63__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/63> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_63_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/63> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_63_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/63> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_63_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/63> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_63_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/63> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_63_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/63> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_64__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/64> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_64_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/64> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_64_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/64> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_64_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/64> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_64_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/64> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_64_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/64> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_65__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/65> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_65_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/65> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_65_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/65> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_65_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/65> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_65_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/65> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_65_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/65> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_66__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/66> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_66_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/66> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_66_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/66> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_66_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/66> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_66_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/66> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_66_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/66> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_67__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/67> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_67_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/67> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_67_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/67> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_67_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/67> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_67_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/67> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_67_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/67> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_68__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/68> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_68_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/68> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_68_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/68> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_68_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/68> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_68_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/68> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_68_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/68> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_69__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/69> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_69_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/69> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_69_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/69> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_69_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/69> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_69_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/69> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_69_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/69> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_6__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/6> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_6_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/6> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_6_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/6> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_6_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/6> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_6_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/6> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_6_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/6> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_70__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/70> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_70_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/70> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_70_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/70> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_70_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/70> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_70_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/70> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_70_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/70> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_71__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/71> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_71_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/71> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_71_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/71> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_71_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/71> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_71_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/71> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_71_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/71> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_72__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/72> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_72_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/72> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_72_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/72> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_72_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/72> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_72_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/72> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_72_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/72> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_73__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/73> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_73_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/73> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_73_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/73> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_73_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/73> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_73_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/73> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_73_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/73> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_74__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/74> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_74_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/74> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_74_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/74> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_74_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/74> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_74_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/74> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_74_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/74> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_75__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/75> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_75_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/75> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_75_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/75> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_75_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/75> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_75_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/75> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_75_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/75> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_76__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/76> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_76_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/76> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_76_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/76> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_76_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/76> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_76_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/76> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_76_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/76> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_77__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/77> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_77_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/77> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_77_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/77> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_77_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/77> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_77_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/77> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_77_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/77> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_78__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/78> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_78_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/78> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_78_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/78> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_78_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/78> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_78_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/78> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_78_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/78> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_79__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/79> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_79_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/79> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_79_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/79> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_79_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/79> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_79_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/79> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_79_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/79> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_7__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/7> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_7_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/7> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_7_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/7> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_7_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/7> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_7_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/7> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_7_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/7> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_80__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/80> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_80_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/80> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_80_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/80> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_80_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/80> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_80_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/80> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_80_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/80> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_81__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/81> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_81_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/81> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_81_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/81> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_81_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/81> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_81_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/81> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_81_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/81> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_82__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/82> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_82_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/82> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_82_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/82> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_82_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/82> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_82_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/82> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_82_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/82> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_83__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/83> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_83_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/83> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_83_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/83> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_83_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/83> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_83_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/83> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_83_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/83> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_84__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/84> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_84_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/84> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_84_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/84> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_84_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/84> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_84_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/84> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_84_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/84> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_85__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/85> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_85_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/85> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_85_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/85> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_85_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/85> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_85_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/85> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_85_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/85> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_86__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/86> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_86_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/86> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_86_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/86> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_86_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/86> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_86_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/86> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_86_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/86> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_87__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/87> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_87_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/87> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_87_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/87> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_87_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/87> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_87_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/87> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_87_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/87> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_88__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/88> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_88_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/88> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_88_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/88> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_88_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/88> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_88_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/88> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_88_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/88> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_89__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/89> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_89_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/89> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_89_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/89> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_89_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/89> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_89_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/89> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_89_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/89> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_8__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/8> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_8_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/8> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_8_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/8> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_8_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/8> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_8_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/8> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_8_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/8> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_90__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/90> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_90_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/90> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_90_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/90> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_90_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/90> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_90_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/90> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_90_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/90> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_91__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/91> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_91_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/91> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_91_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/91> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_91_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/91> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_91_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/91> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_91_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/91> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_92__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/92> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_92_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/92> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_92_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/92> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_92_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/92> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_92_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/92> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_92_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/92> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_93__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/93> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_93_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/93> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_93_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/93> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_93_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/93> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_93_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/93> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_93_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/93> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_94__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/94> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_94_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/94> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_94_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/94> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_94_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/94> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_94_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/94> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_94_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/94> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_95__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/95> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_95_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/95> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_95_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/95> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_95_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/95> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_95_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/95> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_95_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/95> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_96__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/96> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_96_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/96> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_96_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/96> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_96_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/96> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_96_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/96> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_96_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/96> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_97__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/97> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_97_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/97> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_97_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/97> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_97_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/97> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_97_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/97> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_97_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/97> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_98__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/98> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_98_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/98> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_98_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/98> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_98_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/98> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_98_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/98> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_98_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/98> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_99__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/99> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_99_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/99> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_99_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/99> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_99_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/99> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_99_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/99> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_99_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/99> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Incident/T_9__> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/9> ;
+    hds:involved <http://example.org/resource/Trafficker/_> .
+
+<http://example.org/resource/Incident/T_9_a> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/9> ;
+    hds:involved <http://example.org/resource/Trafficker/a> .
+
+<http://example.org/resource/Incident/T_9_d> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/9> ;
+    hds:involved <http://example.org/resource/Trafficker/d> .
+
+<http://example.org/resource/Incident/T_9_n> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/9> ;
+    hds:involved <http://example.org/resource/Trafficker/n> .
+
+<http://example.org/resource/Incident/T_9_o> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/9> ;
+    hds:involved <http://example.org/resource/Trafficker/o> .
+
+<http://example.org/resource/Incident/T_9_t> a hds:Incident ;
+    hds:affected <http://example.org/resource/Victim/9> ;
+    hds:involved <http://example.org/resource/Trafficker/t> .
+
+<http://example.org/resource/Victim/1> a hds:Victim ;
+    hds:id "1"^^xsd:string .
+
+<http://example.org/resource/Victim/10> a hds:Victim ;
+    hds:id "10"^^xsd:string .
+
+<http://example.org/resource/Victim/100> a hds:Victim ;
+    hds:id "100"^^xsd:string .
+
+<http://example.org/resource/Victim/11> a hds:Victim ;
+    hds:id "11"^^xsd:string .
+
+<http://example.org/resource/Victim/12> a hds:Victim ;
+    hds:id "12"^^xsd:string .
+
+<http://example.org/resource/Victim/13> a hds:Victim ;
+    hds:id "13"^^xsd:string .
+
+<http://example.org/resource/Victim/14> a hds:Victim ;
+    hds:id "14"^^xsd:string .
+
+<http://example.org/resource/Victim/15> a hds:Victim ;
+    hds:id "15"^^xsd:string .
+
+<http://example.org/resource/Victim/16> a hds:Victim ;
+    hds:id "16"^^xsd:string .
+
+<http://example.org/resource/Victim/17> a hds:Victim ;
+    hds:id "17"^^xsd:string .
+
+<http://example.org/resource/Victim/18> a hds:Victim ;
+    hds:id "18"^^xsd:string .
+
+<http://example.org/resource/Victim/19> a hds:Victim ;
+    hds:id "19"^^xsd:string .
+
+<http://example.org/resource/Victim/2> a hds:Victim ;
+    hds:id "2"^^xsd:string .
+
+<http://example.org/resource/Victim/20> a hds:Victim ;
+    hds:id "20"^^xsd:string .
+
+<http://example.org/resource/Victim/21> a hds:Victim ;
+    hds:id "21"^^xsd:string .
+
+<http://example.org/resource/Victim/22> a hds:Victim ;
+    hds:id "22"^^xsd:string .
+
+<http://example.org/resource/Victim/23> a hds:Victim ;
+    hds:id "23"^^xsd:string .
+
+<http://example.org/resource/Victim/24> a hds:Victim ;
+    hds:id "24"^^xsd:string .
+
+<http://example.org/resource/Victim/25> a hds:Victim ;
+    hds:id "25"^^xsd:string .
+
+<http://example.org/resource/Victim/26> a hds:Victim ;
+    hds:id "26"^^xsd:string .
+
+<http://example.org/resource/Victim/27> a hds:Victim ;
+    hds:id "27"^^xsd:string .
+
+<http://example.org/resource/Victim/28> a hds:Victim ;
+    hds:id "28"^^xsd:string .
+
+<http://example.org/resource/Victim/29> a hds:Victim ;
+    hds:id "29"^^xsd:string .
+
+<http://example.org/resource/Victim/3> a hds:Victim ;
+    hds:id "3"^^xsd:string .
+
+<http://example.org/resource/Victim/30> a hds:Victim ;
+    hds:id "30"^^xsd:string .
+
+<http://example.org/resource/Victim/31> a hds:Victim ;
+    hds:id "31"^^xsd:string .
+
+<http://example.org/resource/Victim/32> a hds:Victim ;
+    hds:id "32"^^xsd:string .
+
+<http://example.org/resource/Victim/33> a hds:Victim ;
+    hds:id "33"^^xsd:string .
+
+<http://example.org/resource/Victim/34> a hds:Victim ;
+    hds:id "34"^^xsd:string .
+
+<http://example.org/resource/Victim/35> a hds:Victim ;
+    hds:id "35"^^xsd:string .
+
+<http://example.org/resource/Victim/36> a hds:Victim ;
+    hds:id "36"^^xsd:string .
+
+<http://example.org/resource/Victim/37> a hds:Victim ;
+    hds:id "37"^^xsd:string .
+
+<http://example.org/resource/Victim/38> a hds:Victim ;
+    hds:id "38"^^xsd:string .
+
+<http://example.org/resource/Victim/39> a hds:Victim ;
+    hds:id "39"^^xsd:string .
+
+<http://example.org/resource/Victim/4> a hds:Victim ;
+    hds:id "4"^^xsd:string .
+
+<http://example.org/resource/Victim/40> a hds:Victim ;
+    hds:id "40"^^xsd:string .
+
+<http://example.org/resource/Victim/41> a hds:Victim ;
+    hds:id "41"^^xsd:string .
+
+<http://example.org/resource/Victim/42> a hds:Victim ;
+    hds:id "42"^^xsd:string .
+
+<http://example.org/resource/Victim/43> a hds:Victim ;
+    hds:id "43"^^xsd:string .
+
+<http://example.org/resource/Victim/44> a hds:Victim ;
+    hds:id "44"^^xsd:string .
+
+<http://example.org/resource/Victim/45> a hds:Victim ;
+    hds:id "45"^^xsd:string .
+
+<http://example.org/resource/Victim/46> a hds:Victim ;
+    hds:id "46"^^xsd:string .
+
+<http://example.org/resource/Victim/47> a hds:Victim ;
+    hds:id "47"^^xsd:string .
+
+<http://example.org/resource/Victim/48> a hds:Victim ;
+    hds:id "48"^^xsd:string .
+
+<http://example.org/resource/Victim/49> a hds:Victim ;
+    hds:id "49"^^xsd:string .
+
+<http://example.org/resource/Victim/5> a hds:Victim ;
+    hds:id "5"^^xsd:string .
+
+<http://example.org/resource/Victim/50> a hds:Victim ;
+    hds:id "50"^^xsd:string .
+
+<http://example.org/resource/Victim/51> a hds:Victim ;
+    hds:id "51"^^xsd:string .
+
+<http://example.org/resource/Victim/52> a hds:Victim ;
+    hds:id "52"^^xsd:string .
+
+<http://example.org/resource/Victim/53> a hds:Victim ;
+    hds:id "53"^^xsd:string .
+
+<http://example.org/resource/Victim/54> a hds:Victim ;
+    hds:id "54"^^xsd:string .
+
+<http://example.org/resource/Victim/55> a hds:Victim ;
+    hds:id "55"^^xsd:string .
+
+<http://example.org/resource/Victim/56> a hds:Victim ;
+    hds:id "56"^^xsd:string .
+
+<http://example.org/resource/Victim/57> a hds:Victim ;
+    hds:id "57"^^xsd:string .
+
+<http://example.org/resource/Victim/58> a hds:Victim ;
+    hds:id "58"^^xsd:string .
+
+<http://example.org/resource/Victim/59> a hds:Victim ;
+    hds:id "59"^^xsd:string .
+
+<http://example.org/resource/Victim/6> a hds:Victim ;
+    hds:id "6"^^xsd:string .
+
+<http://example.org/resource/Victim/60> a hds:Victim ;
+    hds:id "60"^^xsd:string .
+
+<http://example.org/resource/Victim/61> a hds:Victim ;
+    hds:id "61"^^xsd:string .
+
+<http://example.org/resource/Victim/62> a hds:Victim ;
+    hds:id "62"^^xsd:string .
+
+<http://example.org/resource/Victim/63> a hds:Victim ;
+    hds:id "63"^^xsd:string .
+
+<http://example.org/resource/Victim/64> a hds:Victim ;
+    hds:id "64"^^xsd:string .
+
+<http://example.org/resource/Victim/65> a hds:Victim ;
+    hds:id "65"^^xsd:string .
+
+<http://example.org/resource/Victim/66> a hds:Victim ;
+    hds:id "66"^^xsd:string .
+
+<http://example.org/resource/Victim/67> a hds:Victim ;
+    hds:id "67"^^xsd:string .
+
+<http://example.org/resource/Victim/68> a hds:Victim ;
+    hds:id "68"^^xsd:string .
+
+<http://example.org/resource/Victim/69> a hds:Victim ;
+    hds:id "69"^^xsd:string .
+
+<http://example.org/resource/Victim/7> a hds:Victim ;
+    hds:id "7"^^xsd:string .
+
+<http://example.org/resource/Victim/70> a hds:Victim ;
+    hds:id "70"^^xsd:string .
+
+<http://example.org/resource/Victim/71> a hds:Victim ;
+    hds:id "71"^^xsd:string .
+
+<http://example.org/resource/Victim/72> a hds:Victim ;
+    hds:id "72"^^xsd:string .
+
+<http://example.org/resource/Victim/73> a hds:Victim ;
+    hds:id "73"^^xsd:string .
+
+<http://example.org/resource/Victim/74> a hds:Victim ;
+    hds:id "74"^^xsd:string .
+
+<http://example.org/resource/Victim/75> a hds:Victim ;
+    hds:id "75"^^xsd:string .
+
+<http://example.org/resource/Victim/76> a hds:Victim ;
+    hds:id "76"^^xsd:string .
+
+<http://example.org/resource/Victim/77> a hds:Victim ;
+    hds:id "77"^^xsd:string .
+
+<http://example.org/resource/Victim/78> a hds:Victim ;
+    hds:id "78"^^xsd:string .
+
+<http://example.org/resource/Victim/79> a hds:Victim ;
+    hds:id "79"^^xsd:string .
+
+<http://example.org/resource/Victim/8> a hds:Victim ;
+    hds:id "8"^^xsd:string .
+
+<http://example.org/resource/Victim/80> a hds:Victim ;
+    hds:id "80"^^xsd:string .
+
+<http://example.org/resource/Victim/81> a hds:Victim ;
+    hds:id "81"^^xsd:string .
+
+<http://example.org/resource/Victim/82> a hds:Victim ;
+    hds:id "82"^^xsd:string .
+
+<http://example.org/resource/Victim/83> a hds:Victim ;
+    hds:id "83"^^xsd:string .
+
+<http://example.org/resource/Victim/84> a hds:Victim ;
+    hds:id "84"^^xsd:string .
+
+<http://example.org/resource/Victim/85> a hds:Victim ;
+    hds:id "85"^^xsd:string .
+
+<http://example.org/resource/Victim/86> a hds:Victim ;
+    hds:id "86"^^xsd:string .
+
+<http://example.org/resource/Victim/87> a hds:Victim ;
+    hds:id "87"^^xsd:string .
+
+<http://example.org/resource/Victim/88> a hds:Victim ;
+    hds:id "88"^^xsd:string .
+
+<http://example.org/resource/Victim/89> a hds:Victim ;
+    hds:id "89"^^xsd:string .
+
+<http://example.org/resource/Victim/9> a hds:Victim ;
+    hds:id "9"^^xsd:string .
+
+<http://example.org/resource/Victim/90> a hds:Victim ;
+    hds:id "90"^^xsd:string .
+
+<http://example.org/resource/Victim/91> a hds:Victim ;
+    hds:id "91"^^xsd:string .
+
+<http://example.org/resource/Victim/92> a hds:Victim ;
+    hds:id "92"^^xsd:string .
+
+<http://example.org/resource/Victim/93> a hds:Victim ;
+    hds:id "93"^^xsd:string .
+
+<http://example.org/resource/Victim/94> a hds:Victim ;
+    hds:id "94"^^xsd:string .
+
+<http://example.org/resource/Victim/95> a hds:Victim ;
+    hds:id "95"^^xsd:string .
+
+<http://example.org/resource/Victim/96> a hds:Victim ;
+    hds:id "96"^^xsd:string .
+
+<http://example.org/resource/Victim/97> a hds:Victim ;
+    hds:id "97"^^xsd:string .
+
+<http://example.org/resource/Victim/98> a hds:Victim ;
+    hds:id "98"^^xsd:string .
+
+<http://example.org/resource/Victim/99> a hds:Victim ;
+    hds:id "99"^^xsd:string .
+
+<http://example.org/resource/Trafficker/_> a hds:Trafficker .
+
+<http://example.org/resource/Trafficker/a> a hds:Trafficker .
+
+<http://example.org/resource/Trafficker/d> a hds:Trafficker .
+
+<http://example.org/resource/Trafficker/n> a hds:Trafficker .
+
+<http://example.org/resource/Trafficker/o> a hds:Trafficker .
+
+<http://example.org/resource/Trafficker/t> a hds:Trafficker .
+

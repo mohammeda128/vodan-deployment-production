@@ -1,0 +1,3762 @@
+[
+    {
+        "victim_id": 1,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Sudan/Chad"
+            }
+        ],
+        "money_extorted_amount": "4964",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 2,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "France"
+            }
+        ],
+        "money_extorted_amount": "2666",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 3,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Libya"
+            },
+            {
+                "border": "Niger/Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "4214",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 4,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Sudan"
+            },
+            {
+                "border": "Chad/France/Niger"
+            }
+        ],
+        "money_extorted_amount": "3084",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 5,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "France"
+            },
+            {
+                "border": "Niger/Egypt/Libya/Italy"
+            }
+        ],
+        "money_extorted_amount": "4674",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 6,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Libya"
+            },
+            {
+                "border": "Ethiopia/Niger/France"
+            }
+        ],
+        "money_extorted_amount": "4216",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 7,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Sudan"
+            },
+            {
+                "border": "Libya/Egypt/Niger/Eritrea"
+            }
+        ],
+        "money_extorted_amount": "2461",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 8,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Niger"
+            },
+            {
+                "border": "Egypt/Tunisia/Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "4198",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 9,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Chad"
+            }
+        ],
+        "money_extorted_amount": "2781",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 10,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Tunisia"
+            },
+            {
+                "border": "Sudan/Libya/Italy/Chad"
+            }
+        ],
+        "money_extorted_amount": "3279",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 11,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Sudan"
+            }
+        ],
+        "money_extorted_amount": "1264",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 12,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Niger"
+            },
+            {
+                "border": "Italy/Tunisia/Libya"
+            }
+        ],
+        "money_extorted_amount": "2055",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 13,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Chad"
+            },
+            {
+                "border": "Niger"
+            }
+        ],
+        "money_extorted_amount": "1482",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 14,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Tunisia"
+            },
+            {
+                "border": "Egypt/Libya/Sudan"
+            }
+        ],
+        "money_extorted_amount": "4254",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 15,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "France"
+            },
+            {
+                "border": "Italy/Sudan/Egypt"
+            }
+        ],
+        "money_extorted_amount": "2952",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 16,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Sudan"
+            },
+            {
+                "border": "Libya/Niger/Tunisia"
+            }
+        ],
+        "money_extorted_amount": "2766",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 17,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "France"
+            },
+            {
+                "border": "Italy/Eritrea/Chad"
+            }
+        ],
+        "money_extorted_amount": "1544",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 18,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "Niger/Chad"
+            }
+        ],
+        "money_extorted_amount": "2685",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 19,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Libya/France/Eritrea"
+            }
+        ],
+        "money_extorted_amount": "4673",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 20,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "France"
+            },
+            {
+                "border": "Italy/Libya/Chad/Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "2057",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 21,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "Niger/Ethiopia/Tunisia/Libya"
+            }
+        ],
+        "money_extorted_amount": "2071",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 22,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Chad"
+            },
+            {
+                "border": "Italy/Tunisia/Niger/Egypt"
+            }
+        ],
+        "money_extorted_amount": "1890",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 23,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "France"
+            },
+            {
+                "border": "Libya/Tunisia/Chad/Egypt"
+            }
+        ],
+        "money_extorted_amount": "2092",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 24,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Tunisia"
+            },
+            {
+                "border": "Eritrea"
+            }
+        ],
+        "money_extorted_amount": "4306",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 25,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Tunisia/Libya"
+            }
+        ],
+        "money_extorted_amount": "2840",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 26,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Tunisia/Niger/Sudan"
+            }
+        ],
+        "money_extorted_amount": "2194",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 27,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Niger"
+            },
+            {
+                "border": "Tunisia/Sudan/Chad"
+            }
+        ],
+        "money_extorted_amount": "3253",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 28,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Niger"
+            },
+            {
+                "border": "Egypt/Chad/Tunisia"
+            }
+        ],
+        "money_extorted_amount": "3177",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 29,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Sudan"
+            },
+            {
+                "border": "Eritrea/Chad"
+            }
+        ],
+        "money_extorted_amount": "1534",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 30,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Chad"
+            },
+            {
+                "border": "Libya/France/Sudan/Egypt"
+            }
+        ],
+        "money_extorted_amount": "2970",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 31,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Eritrea"
+            },
+            {
+                "border": "Niger/France/Egypt/Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "2712",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 32,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "Eritrea/Tunisia/Libya/Italy"
+            }
+        ],
+        "money_extorted_amount": "2616",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 33,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Chad"
+            }
+        ],
+        "money_extorted_amount": "3812",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 34,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Libya"
+            },
+            {
+                "border": "Italy/Eritrea/France"
+            }
+        ],
+        "money_extorted_amount": "2272",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 35,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Sudan"
+            },
+            {
+                "border": "France/Ethiopia/Egypt"
+            }
+        ],
+        "money_extorted_amount": "1534",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 36,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Tunisia"
+            },
+            {
+                "border": "Libya/Sudan/Italy/Niger"
+            }
+        ],
+        "money_extorted_amount": "2989",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 37,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Chad"
+            },
+            {
+                "border": "Ethiopia/Libya"
+            }
+        ],
+        "money_extorted_amount": "1786",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 38,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Chad/Niger"
+            }
+        ],
+        "money_extorted_amount": "1440",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 39,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Tunisia"
+            },
+            {
+                "border": "Libya/Sudan/Chad/Egypt"
+            }
+        ],
+        "money_extorted_amount": "3140",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 40,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "Niger/France/Eritrea/Tunisia"
+            }
+        ],
+        "money_extorted_amount": "1356",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 41,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Tunisia"
+            }
+        ],
+        "money_extorted_amount": "3885",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 42,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Eritrea"
+            },
+            {
+                "border": "Ethiopia/Sudan"
+            }
+        ],
+        "money_extorted_amount": "3842",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 43,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Chad"
+            },
+            {
+                "border": "Italy/Eritrea/Niger/Sudan"
+            }
+        ],
+        "money_extorted_amount": "2763",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 44,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Tunisia"
+            },
+            {
+                "border": "Egypt/Chad/Italy/Libya"
+            }
+        ],
+        "money_extorted_amount": "3637",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 45,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Tunisia"
+            }
+        ],
+        "money_extorted_amount": "625",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 46,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "France"
+            },
+            {
+                "border": "Libya"
+            }
+        ],
+        "money_extorted_amount": "2423",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 47,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "France/Niger/Libya"
+            }
+        ],
+        "money_extorted_amount": "2500",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 48,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Tunisia"
+            },
+            {
+                "border": "Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "4977",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 49,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "France"
+            },
+            {
+                "border": "Ethiopia/Italy/Sudan"
+            }
+        ],
+        "money_extorted_amount": "3742",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 50,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Tunisia"
+            }
+        ],
+        "money_extorted_amount": "773",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 51,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Egypt/Libya/Chad/Sudan"
+            }
+        ],
+        "money_extorted_amount": "1653",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 52,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Libya"
+            },
+            {
+                "border": "Chad/Tunisia/Sudan"
+            }
+        ],
+        "money_extorted_amount": "3187",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 53,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Niger"
+            },
+            {
+                "border": "Tunisia/Egypt"
+            }
+        ],
+        "money_extorted_amount": "4925",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 54,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Egypt/Sudan/Chad"
+            }
+        ],
+        "money_extorted_amount": "2760",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 55,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "Eritrea/Sudan"
+            }
+        ],
+        "money_extorted_amount": "2771",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 56,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Sudan"
+            },
+            {
+                "border": "Eritrea/Niger/Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "1431",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 57,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Libya"
+            },
+            {
+                "border": "Tunisia/Italy/Sudan/Niger"
+            }
+        ],
+        "money_extorted_amount": "3138",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 58,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Niger"
+            },
+            {
+                "border": "Egypt/Tunisia"
+            }
+        ],
+        "money_extorted_amount": "3766",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 59,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Eritrea"
+            },
+            {
+                "border": "Italy/Sudan/Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "3200",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 60,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Egypt/Libya/Niger"
+            }
+        ],
+        "money_extorted_amount": "2782",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 61,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Libya"
+            },
+            {
+                "border": "Eritrea/Sudan/Tunisia/Egypt"
+            }
+        ],
+        "money_extorted_amount": "4845",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 62,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Tunisia"
+            }
+        ],
+        "money_extorted_amount": "3973",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 63,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Chad"
+            },
+            {
+                "border": "Niger"
+            }
+        ],
+        "money_extorted_amount": "948",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 64,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Chad/Egypt/Sudan/France"
+            }
+        ],
+        "money_extorted_amount": "846",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 65,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Libya"
+            },
+            {
+                "border": "Niger/France/Tunisia"
+            }
+        ],
+        "money_extorted_amount": "4069",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 66,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "Eritrea/Chad/Sudan"
+            }
+        ],
+        "money_extorted_amount": "1699",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 67,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Sudan/Egypt/France"
+            }
+        ],
+        "money_extorted_amount": "1107",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 68,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "France"
+            },
+            {
+                "border": "Tunisia/Eritrea/Sudan"
+            }
+        ],
+        "money_extorted_amount": "4190",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 69,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "France"
+            },
+            {
+                "border": "Sudan/Egypt/Italy"
+            }
+        ],
+        "money_extorted_amount": "3200",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 70,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Niger/Egypt/France"
+            }
+        ],
+        "money_extorted_amount": "1546",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 71,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Eritrea"
+            },
+            {
+                "border": "Libya/Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "1328",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 72,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Chad"
+            },
+            {
+                "border": "Tunisia/Ethiopia/Niger"
+            }
+        ],
+        "money_extorted_amount": "4177",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 73,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Sudan/Tunisia"
+            }
+        ],
+        "money_extorted_amount": "3540",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 74,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Niger"
+            },
+            {
+                "border": "Sudan"
+            }
+        ],
+        "money_extorted_amount": "3747",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 75,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Eritrea"
+            },
+            {
+                "border": "Tunisia/Italy/Ethiopia/Sudan"
+            }
+        ],
+        "money_extorted_amount": "1149",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 76,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Libya"
+            },
+            {
+                "border": "Tunisia"
+            }
+        ],
+        "money_extorted_amount": "4891",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 77,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "France"
+            }
+        ],
+        "money_extorted_amount": "4656",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 78,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Eritrea"
+            },
+            {
+                "border": "Sudan/Egypt/Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "3273",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 79,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Italy/Niger/Tunisia"
+            }
+        ],
+        "money_extorted_amount": "4948",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 80,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Eritrea"
+            },
+            {
+                "border": "Tunisia/Italy/France"
+            }
+        ],
+        "money_extorted_amount": "4753",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 81,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Eritrea"
+            },
+            {
+                "border": "Tunisia/Egypt/Chad/Sudan"
+            }
+        ],
+        "money_extorted_amount": "3388",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 82,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "Niger/Sudan/Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "1756",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 83,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Libya/Ethiopia/Niger/Eritrea"
+            }
+        ],
+        "money_extorted_amount": "4155",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 84,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Nigeria",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Eritrea/Italy/Niger"
+            }
+        ],
+        "money_extorted_amount": "3461",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 85,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "Physical Abuse",
+                "abuse_labels_experienced": [
+                    "Physical Abuse"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Tunisia"
+            },
+            {
+                "border": "Italy/Niger/France/Chad"
+            }
+        ],
+        "money_extorted_amount": "1104",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 86,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "Chad/France"
+            }
+        ],
+        "money_extorted_amount": "4750",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 87,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Libya"
+            },
+            {
+                "border": "Sudan"
+            }
+        ],
+        "money_extorted_amount": "2668",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 88,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Eritrea"
+            },
+            {
+                "border": "Tunisia"
+            }
+        ],
+        "money_extorted_amount": "3904",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 89,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Libya"
+            },
+            {
+                "border": "Ethiopia/Tunisia/France/Niger"
+            }
+        ],
+        "money_extorted_amount": "1293",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 90,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Sudan"
+            },
+            {
+                "border": "Libya/Niger/Ethiopia/Chad"
+            }
+        ],
+        "money_extorted_amount": "2472",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 91,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "Sudan/Niger/Italy/Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "2094",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 92,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Chad"
+            },
+            {
+                "border": "Italy/Niger"
+            }
+        ],
+        "money_extorted_amount": "4596",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 93,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "France"
+            },
+            {
+                "border": "Ethiopia/Tunisia/Niger/Sudan"
+            }
+        ],
+        "money_extorted_amount": "3517",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 94,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Sudan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Chad"
+            },
+            {
+                "border": "Sudan/Libya"
+            }
+        ],
+        "money_extorted_amount": "2062",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 95,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "no",
+                "abuse_labels_experienced": "none",
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Italy"
+            },
+            {
+                "border": "Niger/Egypt/Libya/Chad"
+            }
+        ],
+        "money_extorted_amount": "4867",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 96,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Chadian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "Italy/Ethiopia/Eritrea/Sudan"
+            }
+        ],
+        "money_extorted_amount": "4949",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 97,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Somalia",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "yes",
+                "sexual_violence_experienced_type": "not specified"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Torture"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Eritrea"
+            },
+            {
+                "border": "Libya/Chad/Italy"
+            }
+        ],
+        "money_extorted_amount": "915",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 98,
+        "age": "not specified",
+        "gender": "Male",
+        "nationality": "Libyan",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "no",
+                "sexual_violence_witnessed_type": "none"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Chad"
+            },
+            {
+                "border": "Ethiopia/Egypt/Eritrea/Tunisia"
+            }
+        ],
+        "money_extorted_amount": "984",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 99,
+        "age": "not specified",
+        "gender": "Female",
+        "nationality": "Ethiopian",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Physical Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Ethiopia"
+            },
+            {
+                "border": "Libya"
+            }
+        ],
+        "money_extorted_amount": "3244",
+        "money_extorted_currency": "usd"
+    },
+    {
+        "victim_id": 100,
+        "age": "not specified",
+        "gender": "Other",
+        "nationality": "Eritrea",
+        "trafficker_name": "Unknown",
+        "crimes": [
+            {
+                "sexual_violence_experienced_binary": "no",
+                "sexual_violence_experienced_type": "none"
+            },
+            {
+                "sexual_violence_witnessed_binary": "yes",
+                "sexual_violence_witnessed_type": "not specified"
+            },
+            {
+                "deaths_witnessed_binary": "yes",
+                "deaths_witnessed_type": "not specified"
+            },
+            {
+                "abuse_type_experienced": "General Abuse (Unspecified)",
+                "abuse_labels_experienced": [
+                    "General Abuse (Unspecified)"
+                ],
+                "abuse_seen_type": "Other Abuse"
+            }
+        ],
+        "borders_crossed": [
+            {
+                "border": "Egypt"
+            },
+            {
+                "border": "Ethiopia"
+            }
+        ],
+        "money_extorted_amount": "2082",
+        "money_extorted_currency": "usd"
+    }
+]
